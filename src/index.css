@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.header {
+  width: 100vw;
+  height: 100px;
+  background-color: burlywood;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  width: 65px;
+}
+.left-header {
+  gap: 30px;
+  cursor: pointer;
+}
+.right-header {
+  gap: 30px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.work {
+  width: 100vw;
+}
+.footer {
+  width: 100vw;
+  height: 100px;
+  background-color: burlywood;
+  color: black;
+}
+.center {
+  position: relative;
+}
+.content {
+  width: 40rem;
+  position: absolute;
+  top: 10rem;
+  color: white;
+}
+.detail {
+  text-align: start;
+  margin-left: 20px;
+}
+.container {
+  background-color: bisque;
+}
+.contLogo {
+  width: 100vw;
+}
+.serve {
+  width: 50vw;
+}
+.service {
+  width: 50vw;
+  text-align: start;
+  margin-left: 20px;
+}
+.bar1 {
+  display: none;
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+@media screen and (max-width: 600px) {
+  .right-header {
+    gap: 10px;
+  }
+  .content {
+    text-align: start;
+    width: 70vw;
+    top: 3rem;
+  }
+}
+@media screen and (max-width: 450px) {
+
+  .header{
+    flex-direction: column;
+    height: 130px;
+  }
+  .right-header a{
+    margin-left: 10px;
+  }
+  .content {
+    top: 1rem;
+  }
+  .work {
+    height: 300px;
+  }
+  .bar1{
+    display:block;
+  }
+}

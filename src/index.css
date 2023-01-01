@@ -100,7 +100,9 @@ a {
   }
 }
 @media screen and (max-width: 450px) {
-
+.update{
+  display: none;
+}
   .header{
     flex-direction: column;
     height: 130px;

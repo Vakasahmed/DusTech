@@ -26,6 +26,13 @@ function Header() {
         <div className="bar1"></div>
         <div className="bar1"></div>
       </div>
+
+  <div className="right-header update flex">
+        <Link to="/about">About</Link>
+        <Link to="/service">Services</Link>
+        <Link to="/contact">Contact</Link>
+        <Link to="/career">Careers</Link>
+      </div>
       <div className="right-header flex" style={{display:toggle}}>
         <Link to="/about">About</Link>
         <Link to="/service">Services</Link>
